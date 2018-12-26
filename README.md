@@ -53,3 +53,25 @@ git rebase使用讨论，请参考: [https://segmentfault.com/q/1010000000430041
 - [ ] /proc/sys/vm/extfrag_threshold
 - [ ] /proc/sys/vm/drop_caches
 - [ ] /sys/kernel/debug/extfrag/extfrag_index
+
+
+1. 内存分配失败
+
+错误信息:
+
+```
+2018-09-25 17:59:15nsenter: failed to unshare namespaces: Cannot allocate memory
+2018-09-25 17:59:15container_linux.go:262: starting container process caused "process_linux.go:247: running exec setns process for init caused \"exit status 34\""
+2018-09-25 17:59:15oci runtime error: container_linux.go:262: starting container process caused "process_linux.go:247: running exec setns process for init caused \"exit status 34\""
+```
+详情参考:
+
+- https://blog.csdn.net/wqhlmark64/article/details/79143975
+- https://www.lijiaocn.com/%E9%97%AE%E9%A2%98/2017/11/13/problem-unable-create-nf-conn.html
+
+排查方法:
+
+```
+#dmesg -T|grep “allocation failure”
+#cat /proc/buddyinfo
+```
