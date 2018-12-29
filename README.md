@@ -1,4 +1,4 @@
-# 开发工具记录
+# 研发知识体系
 
 ## Git
 
@@ -19,6 +19,8 @@ git rebase使用讨论，请参考: [https://segmentfault.com/q/1010000000430041
 常用工具 &  库:
 
 - 日志: [logrus](https://github.com/Sirupsen/logrus)
+- 路由:[http router](https://github.com/julienschmidt/httprouter)、[mux](https://github.com/gorilla/mux)
+- Web框架: [gin](https://github.com/gin-gonic/gin)、[echo](https://github.com/labstack/echo)
 
 ### 2. Python
 
@@ -27,6 +29,14 @@ git rebase使用讨论，请参考: [https://segmentfault.com/q/1010000000430041
 - [pipenv](https://github.com/pypa/pipenv)
 - [requests](https://github.com/requests/requests)
 
+## 系统
+
+### 域名
+
+1. DNS记录类型: A记录、MX记录、PTR记录、Text记录等
+2. 泛域名概念及使用场景
+
+###
 
 ## 系统排查
 
