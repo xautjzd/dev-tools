@@ -28,6 +28,7 @@ git rebase使用讨论，请参考: [https://segmentfault.com/q/1010000000430041
 
 - [pipenv](https://github.com/pypa/pipenv)
 - [requests](https://github.com/requests/requests)
+- [pipreqs](https://github.com/bndr/pipreqs)
 
 ## 系统
 
