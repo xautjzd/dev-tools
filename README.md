@@ -22,6 +22,13 @@ git rebase使用讨论，请参考: [https://segmentfault.com/q/1010000000430041
 - 路由:[http router](https://github.com/julienschmidt/httprouter)、[mux](https://github.com/gorilla/mux)
 - Web框架: [gin](https://github.com/gin-gonic/gin)、[echo](https://github.com/labstack/echo)
 
+**Goroutine**
+
+- [https://blog.nindalf.com/posts/how-goroutines-work/](https://blog.nindalf.com/posts/how-goroutines-work/)
+- [Concurrency is not parallelism by Rob Pike](https://www.youtube.com/watch?v=cN_DpYBzKso)
+- http://www.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf
+- https://docs.google.com/document/d/1TTj4T2JO42uD5ID9e89oa0sLKhJYD0Y_kqxDv3I3XMw/edit
+
 ### 2. Python
 
 常用工具 &  库:
