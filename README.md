@@ -62,6 +62,7 @@ git rebase使用讨论，请参考: [https://segmentfault.com/q/1010000000430041
 - [ ] systemtap
 - [ ] orgalorg: ``cat /etc/hosts | fgrep terminus | awk '{print $1}' | orgalorg -s -c 2000 -j 5000 -z 5000 -a 3000 -y -t -w -d 38 -C sar -q`
 - [ ] oom-killer
+- [ ] blktrace/blkparse/bbt - block layer IO tracing
 
 ### 内存相关
 
