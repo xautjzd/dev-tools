@@ -6,6 +6,8 @@
 
 git rebase使用讨论，请参考: [https://segmentfault.com/q/1010000000430041](https://segmentfault.com/q/1010000000430041)
 
+CHANGELOG自动生成工具，请参考: [https://github.com/conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
+
 常用场景:
 
  - 查看某个文件的历史提交记录: `git log -- <file-path>`
