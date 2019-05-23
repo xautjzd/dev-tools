@@ -23,6 +23,7 @@ CHANGELOG自动生成工具，请参考: [https://github.com/conventional-change
 - 日志: [logrus](https://github.com/Sirupsen/logrus)
 - 路由:[http router](https://github.com/julienschmidt/httprouter)、[mux](https://github.com/gorilla/mux)
 - Web框架: [gin](https://github.com/gin-gonic/gin)、[echo](https://github.com/labstack/echo)
+- Go限制并发goroutine数: [https://github.com/golang/net/blob/master/netutil/listen.go](https://github.com/golang/net/blob/master/netutil/listen.go)
 
 **Goroutine**
 
