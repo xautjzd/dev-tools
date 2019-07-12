@@ -67,6 +67,14 @@ CHANGELOG自动生成工具，请参考: [https://github.com/conventional-change
 - [ ] oom-killer
 - [ ] blktrace/blkparse/bbt - block layer IO tracing
 
+### 负载相关
+
+- uptime/top 查看负载情况
+- [] `/proc/stat`
+- [] `/proc/loadavg`
+
+参考文档: [http://www.penglixun.com/tech/system/how_to_calc_load_cpu.html](http://www.penglixun.com/tech/system/how_to_calc_load_cpu.html)
+
 ### 内存相关
 
 - [ ] /proc/buddyinfo
@@ -97,3 +105,11 @@ CHANGELOG自动生成工具，请参考: [https://github.com/conventional-change
 #dmesg -T|grep “allocation failure”
 #cat /proc/buddyinfo
 ```
+
+### IO相关
+
+cpu使用率低负载高时，基本是IO慢导致, IO处理时间长，IO等待队列长
+
+- [] iostat 查看系统IO情况
+- [] iotop/pidstat 查看IO高的进程
+- [] ioprofile 统计某个进程的文件读写情况
