@@ -67,11 +67,13 @@ CHANGELOG自动生成工具，请参考: [https://github.com/conventional-change
 - [ ] oom-killer
 - [ ] blktrace/blkparse/bbt - block layer IO tracing
 
+blktrace reference: [http://duch.mimuw.edu.pl/~lichota/09-10/Optymalizacja-open-source/Materialy/10%20-%20Dysk/gelato_ICE06apr_blktrace_brunelle_hp.pdf](http://duch.mimuw.edu.pl/~lichota/09-10/Optymalizacja-open-source/Materialy/10%20-%20Dysk/gelato_ICE06apr_blktrace_brunelle_hp.pdf)
+
 ### 负载相关
 
 - uptime/top 查看负载情况
-- [] `/proc/stat`
-- [] `/proc/loadavg`
+- [ ] `/proc/stat`
+- [ ] `/proc/loadavg`
 
 参考文档: [http://www.penglixun.com/tech/system/how_to_calc_load_cpu.html](http://www.penglixun.com/tech/system/how_to_calc_load_cpu.html)
 
@@ -110,6 +112,12 @@ CHANGELOG自动生成工具，请参考: [https://github.com/conventional-change
 
 cpu使用率低负载高时，基本是IO慢导致, IO处理时间长，IO等待队列长
 
-- [] iostat 查看系统IO情况
-- [] iotop/pidstat 查看IO高的进程
-- [] ioprofile 统计某个进程的文件读写情况
+- [ ] iostat 查看系统IO情况
+- [ ] iotop/pidstat 查看IO高的进程
+- [ ] ioprofile 统计某个进程的文件读写情况
+- [ ] fio
+
+参考文档:
+
+- [http://blog.yufeng.info/archives/2524](http://blog.yufeng.info/archives/2524)
+- [https://www.mjmwired.net/kernel/Documentation/cgroups/blkio-controller.txt](https://www.mjmwired.net/kernel/Documentation/cgroups/blkio-controller.txt)
