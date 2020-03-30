@@ -13,6 +13,10 @@ CHANGELOG自动生成工具，请参考: [https://github.com/conventional-change
  - 查看某个文件的历史提交记录: `git log -- <file-path>`
  - 查看某个关键字的历史提交: `git log -S"keyword"` 或`git log -G"<regex>"`
 
+### git http server 实现
+
+1. [https://io-meter.com/2014/07/09/simple-git-http-server/](https://io-meter.com/2014/07/09/simple-git-http-server/)
+2. [https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E5%8D%8F%E8%AE%AE](https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E5%8D%8F%E8%AE%AE)
 
 ## 语言
 
